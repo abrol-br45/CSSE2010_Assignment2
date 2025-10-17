@@ -5,6 +5,8 @@
  *  Author: brand
  */ 
 
+#include "hardware.h"
+
 void hardware_init(void){
 	DDRC = 0xFF; //LEDs
 	PORTC = 0x00;

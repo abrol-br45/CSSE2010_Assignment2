@@ -6,8 +6,8 @@
  */ 
 
 
-#ifndef HARDWARE_H_
-#define HARDWARE_H_
+#ifndef HARDWARE_H
+#define HARDWARE_H
 #include <avr/io.h>
 #include <stdbool.h>
 #include <stdint.h>
@@ -18,4 +18,4 @@ bool button_pressed(uint8_t pin);
 void update_mode(uint8_t mode);
 void update_power(uint8_t level);
 
-#endif /* HARDWARE_H_ */
+#endif /* HARDWARE_H */
