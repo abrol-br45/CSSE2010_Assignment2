@@ -1,6 +1,6 @@
 /*
  * microwaveAssessment.c
- * Author : <Your Name + Student ID>
+ * Author : Branden Rease Abrol, 49748271
  */ 
 
 #include <stdbool.h>
